@@ -1,0 +1,19 @@
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table-custom tbody tr td{
+	color: #3b3b3b;
+	
+	padding: 15px 10px;
+}
+
+.table-custom thead tr th{
+	color: #3b3b3b;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
